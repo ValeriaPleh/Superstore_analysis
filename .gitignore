@@ -1,5 +1,19 @@
-# Object file
-*.o
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 
-# Ada Library Information
-*.ali
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
